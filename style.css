@@ -1,150 +1,273 @@
-header{
-            height: 100px;
-            width: 91%;
-            background: rgb(109, 153, 42);
-            text-align: center;
-            margin: 20px;
-            border: 2px solid black;
-			display: flex;
-			gap: 30px;
-			align-content: center;
-			align-items: center;
-        }
-        header #logo{
-	        height: 80px;
-	        width: 20%; 
-        }
-        header #logo img{
-	        height: 70px;
-	        width: 70px;
-	        border-radius: 50%;
-        }
-		#links{
-			padding: 0px;
-			margin: 0px;
-			
-		}
-		#links ul{
-			display: flex;
-			gap: 15px;
-		}
-		#links ul li{
-			list-style: none;
-		}
-		#links ul li a{
-			text-decoration: none;
-			font-family: arial;
-			font-size: 15px;
-			color: black;
-		}
-		#links ul li a:hover{
-			color: white;
-			text-decoration: underline;
-			font-weight: bold;
-		}		
-        .get_form{
-			height: 730px;
-			width: 40%;
-			margin: auto;
-			background: skyblue;
-			padding: 20px;
-			border-radius: 20px;
-		}
-		#login_form{
-			height: 380px;
-			width: 80%;
-			margin: 20px;
-			margin-left: 50px;
-			background: white;
-			border: 2px solid black;
-			text-align: center;
-			border-radius: 20px;
-		}
-		#form_name{
-			height: 50px;
-			width: 60%;
-			display: flex;
-			margin: 20px;
-			margin: auto;
-			margin-bottom: 10px;
-			background: gainsboro;
-			border: 2px solid gainsboro;
-		}
-		#form_name input{
-			height: 45px;
-			width: 100%;
-			background: gainsboro;
-			border: 2px solid gainsboro;
-			margin-left: 20px;
-		}
-		#form_name img{
-			align-items: center;
-			margin-left: 20px;
-		}
-		#form_type{
-			height: 50px;
-			width: 60%;
-			display: flex;
-			background: white;
-			margin: auto;
-			background: gainsboro;
-			border: 2px solid gainsboro;
-			margin-bottom: 10px;
-		}
-		#form_type input{
-			height: 45px;
-			width: 100%;
-			background: gainsboro;
-			border: 2px solid gainsboro;
-			margin-left: 20px;
-		}
-		#form_type img{
-			align-items: center;
-			margin-left: 20px;
-		}
-		#form_me{
-			margin-right: 270px;
-		}	
-		#form_me input{
-			width: 90%;
-			margin-left: -220px;
-		}
-		#form_me label{
-			margin-left: 30px;
-			margin: auto;
-		}
-		#form_submit button{
-			width: 65%;
-			height: 50px;
-			background: skyblue;
-			margin-top: 10px;
-			color: white;
-			margin: auto;
-			font-size: 15px;
-		}
-		#form_for{
-			height: 270px;
-			width: 80%;
-			margin-left: 50px;
-			margin-top: 60px;
-			background: white;
-			border: 2px solid black;
-			text-align: center;
-			border-radius: 20px;
-		}
-		#form_for input{
-			width: 50%;
-			
-		}
-		#for_submit{
-			color: white;
-		} 
-		#for_submit button {
-			width: 65%;
-			height: 50px;
-			background: skyblue;
-			color: white;
-			margin: auto;
-			font-size: 15px;
-			margin-top: 20px;
-		}
+.main {
+  height: 800px;
+  width: 60%;
+  margin: auto;
+  background: gray;
+}
+
+header {
+  height: 100px;
+  width: 91%;
+  background: rgb(109, 153, 42);
+  text-align: center;
+  margin: 20px;
+  border: 2px solid black;
+  display: flex;
+  gap: 30px;
+  align-content: center;
+  align-items: center;
+}
+header #logo {
+  height: 80px;
+  width: 20%;
+}
+header #logo img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+#links {
+  padding: 0px;
+  margin: 0px;
+}
+#links ul {
+  display: flex;
+  gap: 15px;
+}
+#links ul li {
+  list-style: none;
+}
+#links ul li a {
+  text-decoration: none;
+  font-family: arial;
+  font-size: 15px;
+  color: black;
+}
+#links ul li a:hover {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* index atyle start */
+.get_form {
+  height: 730px;
+  width: 40%;
+  margin: auto;
+  background: skyblue;
+  padding: 20px;
+  border-radius: 20px;
+}
+#login_form {
+  height: 380px;
+  width: 80%;
+  margin: 20px;
+  margin-left: 50px;
+  background: white;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 20px;
+}
+#form_name {
+  height: 50px;
+  width: 60%;
+  display: flex;
+  margin: 20px;
+  margin: auto;
+  margin-bottom: 10px;
+  background: gainsboro;
+  border: 2px solid gainsboro;
+}
+#form_name input {
+  height: 45px;
+  width: 100%;
+  background: gainsboro;
+  border: 2px solid gainsboro;
+  margin-left: 20px;
+}
+#form_name img {
+  align-items: center;
+  margin-left: 20px;
+}
+#form_type {
+  height: 50px;
+  width: 60%;
+  display: flex;
+  background: white;
+  margin: auto;
+  background: gainsboro;
+  border: 2px solid gainsboro;
+  margin-bottom: 10px;
+}
+#form_type input {
+  height: 45px;
+  width: 100%;
+  background: gainsboro;
+  border: 2px solid gainsboro;
+  margin-left: 20px;
+}
+#form_type img {
+  align-items: center;
+  margin-left: 20px;
+}
+#form_me {
+  margin-right: 270px;
+}
+#form_me input {
+  width: 90%;
+  margin-left: -220px;
+}
+#form_me label {
+  margin-left: 30px;
+  margin: auto;
+}
+#form_submit button {
+  width: 65%;
+  height: 50px;
+  background: skyblue;
+  margin-top: 10px;
+  color: white;
+  margin: auto;
+  font-size: 15px;
+}
+#form_for {
+  height: 270px;
+  width: 80%;
+  margin-left: 50px;
+  margin-top: 60px;
+  background: white;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 20px;
+}
+#form_for input {
+  width: 50%;
+}
+#for_submit {
+  color: white;
+}
+#for_submit button {
+  width: 65%;
+  height: 50px;
+  background: skyblue;
+  color: white;
+  margin: auto;
+  font-size: 15px;
+  margin-top: 20px;
+}
+/* index style end */
+
+/* Registartion css */
+.fill_form {
+  height: 700px;
+  width: 60%;
+  margin: auto;
+  background: skyblue;
+  padding: 10px;
+  border-radius: 20px;
+}
+#reg_form {
+  height: 600px;
+  width: 80%;
+  margin: auto;
+  margin-left: 50px;
+  margin-top: 20px;
+  background: white;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 20px;
+}
+#form_reg {
+  height: 50px;
+  width: 60%;
+  display: flex;
+  gap: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#form_reg input {
+  height: 45px;
+  width: 100%;
+  background: gainsboro;
+  border: 2px solid gainsboro;
+}
+#reg_put {
+  height: 50px;
+  width: 60%;
+  display: flex;
+  margin: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+  background: gainsboro;
+  border: 2px solid gainsboro;
+}
+#reg_put input {
+  height: 45px;
+  width: 100%;
+  background: gainsboro;
+  border: 2px solid gainsboro;
+  margin-left: 20px;
+}
+#reg_put img {
+  align-items: center;
+  margin-left: 20px;
+}
+#reg_email {
+  height: 50px;
+  width: 60%;
+  display: flex;
+  background: white;
+  margin: auto;
+  background: gainsboro;
+  border: 2px solid gainsboro;
+  margin-bottom: 30px;
+}
+#reg_email input {
+  height: 45px;
+  width: 100%;
+  background: gainsboro;
+  border: 2px solid gainsboro;
+  margin-left: 20px;
+}
+#reg_email img {
+  align-items: center;
+  margin-left: 20px;
+}
+#reg_password {
+  height: 50px;
+  width: 60%;
+  display: flex;
+  background: white;
+  margin: auto;
+  background: gainsboro;
+  border: 2px solid gainsboro;
+  margin-bottom: 30px;
+}
+#reg_password input {
+  height: 45px;
+  width: 100%;
+  background: gainsboro;
+  border: 2px solid gainsboro;
+  margin-left: 20px;
+}
+#reg_password img {
+  align-items: center;
+  margin-left: 20px;
+}
+#reg_button {
+  margin-left: -370px;
+  margin-bottom: 20px;
+}
+#reg_button input {
+  margin-left: -400px;
+}
+#reg_button label {
+  margin-left: 20px;
+}
+#reg_submit button {
+  width: 60%;
+  height: 50px;
+  background: skyblue;
+  color: white;
+  font-size: 15px;
+}
