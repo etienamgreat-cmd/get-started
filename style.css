@@ -1,12 +1,7 @@
-<!DocType html>
-<html>
-	<head>
-		<title>Get Started</title>
-		<style>
-		header{
-            height: 200px;
+header{
+            height: 100px;
             width: 91%;
-            background: rgb(185, 247, 91);
+            background: rgb(109, 153, 42);
             text-align: center;
             margin: 20px;
             border: 2px solid black;
@@ -15,7 +10,7 @@
 			align-content: center;
 			align-items: center;
         }
-		header #logo{
+        header #logo{
 	        height: 80px;
 	        width: 20%; 
         }
@@ -46,8 +41,8 @@
 			color: white;
 			text-decoration: underline;
 			font-weight: bold;
-		}
-		.get_form{
+		}		
+        .get_form{
 			height: 730px;
 			width: 40%;
 			margin: auto;
@@ -153,68 +148,3 @@
 			font-size: 15px;
 			margin-top: 20px;
 		}
-		</style>
-	</head>
-	<body>
-		<header>
-			<div id="logo">
-				<a href="practical-2.html"><img src="images/logo.jpg" height="50px" width="50px" alt="logo"></a>
-			</div>	
-			<div id="links">
-				<ul>
-					<li><a href="../home.html">HOME</a></li>
-					<li><a href="about.html">ABOUT</a></li>
-					<li><a href="contact.html">CONTACT</a></li>
-					<li><a href="testimonials.html">TESTIMONIALS</a></li>
-					<li><a href="registration.html">REGISTER</a></li>
-				</ul>
-			</div>
-		</header>
-		<div class="get_form">
-			<div id="login_form">
-				<form>
-					<div id="form_header">
-						<h1>Login Form</h1>
-						<p>fill out this form</p>
-					</div>
-					
-					<div id="form_name">
-						<img src="images/Username.jpg" height="50px" width="50px" alt="logo">
-						<input type="text" id="username" placeholder="username">
-					</div>
-					<div id="form_type">
-						<img src="images/password.jpg" height="50px" width="50px" alt="logo">
-						<input type="password" id="username" placeholder="password">
-					</div>
-					<div id="form_me">
-						<label>Remember me</label>
-						<input type="checkbox" id="checkbox" >
-					</div>
-					<div id="form_submit">
-						<button>submit</button>
-					</div>
-				</form>
-			</div>
-			<div class="form_forgot">
-				<div id="form_for">
-					<h2>Forgot Password</h2>
-					<p>we've just sent you a new password check your e-mail inbox to put your new password click continue to get your account back.</p>
-					<div id="for_submit">
-						<button>continue</button>
-					</div>
-	
-				</div>
-	
-			</div>
-		</div>
-		
-	
-	
-	
-	
-	
-	
-	
-	</body>
-
-</html>
